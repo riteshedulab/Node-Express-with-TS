@@ -11,8 +11,8 @@ app.get('/Home',(req,res)=>{
     console.log("Home Page")
 })
 
-app.get('/About',(req,res)=>{
-    console.log("about Page")
+app.get('/AboutUs',(req,res)=>{
+    console.log("AboutUs Page")
 })
 
 
