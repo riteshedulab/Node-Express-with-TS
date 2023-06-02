@@ -14,6 +14,9 @@ app.get('/Home',(req,res)=>{
 app.get('/About',(req,res)=>{
     console.log("about Page")
 })
+app.get('/ContantUs',(req,res)=>{
+    console.log("ContantUs Page")
+})
 
 
 
