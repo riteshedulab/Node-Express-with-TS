@@ -11,6 +11,12 @@ app.get('/Home',(req,res)=>{
     console.log("Home Page")
 })
 
+app.get('/About',(req,res)=>{
+    console.log("about Page")
+})
+
+
+
 app.listen(PORT,()=>{
     console.log('sever or listening on ${PORT}')
 })
